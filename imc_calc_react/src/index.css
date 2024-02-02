@@ -1,0 +1,26 @@
+/* CSS geral */
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #090e22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #fff;
+ -webkit-font-smoothing: antialiased;
+}
+
+body, input, button {
+ font-family: 'lato', sans-serif;
+}
+
+button {
+ cursor: pointer;
+}
